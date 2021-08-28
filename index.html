@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Alexa</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">home</span> Inicio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">face</span> Acerca de
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">description</span> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">business_center</span> Servicios
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">image</span> Portafolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <span class="material-icons material-icons-outlined nav__icon">send</span> Contacto
+                        </a>
+                    </li>
+                </ul>
+                <span class="material-icons material-icons-outlined nav__close" id="nav-close">close</span>
+            </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <span class="material-icons material-icons-outlined">grid_view</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ======== Main ======== -->
+    <main class="main">
+        <!-- ======== Home ======== -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="#" class="home__social-icon">lin</a>
+                        <a href="#" class="home__social-icon">dri</a>
+                        <a href="#" class="home__social-icon">git</a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='12' y='18' href="assets/images/perfil.png"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am Alexa</h1>
+                        <h3 class="home__subtitle">Frontend developer</h3>
+                        <p class="home__description">High level experience in web design and development knowledge, producing qualituy work.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me&nbsp;&nbsp;&nbsp;<span class="material-icons-outlined button__icon">send</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <span class="material-icons-outlined home__scroll-mouse">mouse</span>
+                        <span class="home__scroll-name">&nbsp;&nbsp;&nbsp;Scroll down&nbsp;&nbsp;&nbsp;</span>
+                        <span class="material-icons-outlined home__scroll-arrow">arrow_downward</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ======== About ======== -->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/images/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Web developer, with extensive knowledge and years of experience, working in web technologies and UI / UX design, delivering quality work.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">08+</span>
+                            <span class="about__info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a href="#" download="" class="button button--flex">
+                            Download CV&nbsp;&nbsp;&nbsp;<span class="material-icons-outlined button__icon">file_download</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== Skills ======== -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!-- ======== Skills 1 ======== -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <span class="material-icons material-icons-outlined skills__icon">code</span>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                <span class="skills__subtitle">More than 4 years</span>
+                            </div>
+
+                            <span class="material-icons material-icons-outlined skills__arrow">expand_more</span>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- ======== Skills 2 ======== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <span class="material-icons material-icons-outlined skills__icon">dns</span>
+
+                            <div class="skills__title">
+                                <h1 class="skills__title">Backend developer</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <span class="material-icons material-icons-outlined skills__arrow">expand_more</span>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Node JS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- ======== Skills 3 ======== -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <span class="material-icons material-icons-outlined skills__icon">style</span>
+    
+                            <div class="skills__title">
+                                <h1 class="skills__title">Designer</h1>
+                                <span class="skills__subtitle">More than 5 years</span>
+                            </div>
+    
+                            <span class="material-icons material-icons-outlined skills__arrow">expand_more</span>
+                        </div>
+    
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Sketch</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sketch"></span>
+                                </div>
+                            </div>
+    
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== Qualification ======== -->
+        <section class="qualification section">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                        <span class="material-icons material-icons-outlined qualification__icon">school</span>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <span class="material-icons material-icons-outlined qualification__icon">work_outline</span>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!-- ======== Qualification Content 1 ======== -->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!-- ======== Qualification 1 ======== -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Computer Enginner</h3>
+                                <span class="qualification__subtitle">México - University</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2009 - 2014
+                                </div>
+                            </div>
+    
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ======== Qualification 2 ======== -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Web Design</h3>
+                                <span class="qualification__subtitle">Spain - Institute</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2014 - 2017
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ======== Qualification 3 ======== -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Web Development</h3>
+                                <span class="qualification__subtitle">México - Institute</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2017 - 2019
+                                </div>
+                            </div>
+    
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ======== Qualification 4 ======== -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Master in UI/UX</h3>
+                                <span class="qualification__subtitle">México - Institute</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2019 - 2021
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ======== Qualification Content 2 ======== -->
+                    <div class="qualification__content" data-content id="work">
+                        <!-- ======== Qualification 1 ======== -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Software Enginner</h3>
+                                <span class="qualification__subtitle">Microsoft - México</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2016 - 2018
+                                </div>
+                            </div>
+    
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ======== Qualification 2 ======== -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Frontend Developer</h3>
+                                <span class="qualification__subtitle">Apple Inc - Spain</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2018 - 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ======== Qualification 3 ======== -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">UI Designer</h3>
+                                <span class="qualification__subtitle">Figma - Spain</span>
+                                <div class="qualification__calendar">
+                                    <span class="material-icons material-icons-outlined">calendar_today</span>
+                                    2017 - 2019
+                                </div>
+                            </div>
+    
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======== Services ======== -->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid">
+                <!-- ======== Services 1 ======== -->
+                <div class="services__content">
+                    <div>
+                        <span class="material-icons material-icons-outlined services__icon">auto_awesome_mosaic</span>
+                        <h3 class="services__title">UI/UX <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View more &nbsp;&nbsp;&nbsp;
+                        <span class="material-icons material-icons-outlined button__icon">arrow_forward</span>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                            <span class="material-icons material-icons-outlined services__modal-close">close</span>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I create UX element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======== Services 2 ======== -->
+                <div class="services__content">
+                    <div>
+                        <span class="material-icons material-icons-outlined services__icon">integration_instructions</span>
+                        <h3 class="services__title">Frontend <br> Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View more &nbsp;&nbsp;&nbsp;
+                        <span class="material-icons material-icons-outlined button__icon">arrow_forward</span>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Frontend <br> Developer</h4>
+                            <span class="material-icons material-icons-outlined services__modal-close">close</span>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I create UX element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ======== Services 3 ======== -->
+                <div class="services__content">
+                    <div>
+                        <span class="material-icons material-icons-outlined services__icon">edit</span>
+                        <h3 class="services__title">Branding <br> Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View more &nbsp;&nbsp;&nbsp;
+                        <span class="material-icons material-icons-outlined button__icon">arrow_forward</span>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Branding <br> Designer</h4>
+                            <span class="material-icons material-icons-outlined services__modal-close">close</span>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I develop the user interface.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>Web page development.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I create UX element interactions</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <span class="material-icons material-icons-outlined services__modal-icon">check_circle</span>
+                                    <p>I position your company brand.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
