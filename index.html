@@ -18,7 +18,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <span class="material-icons material-icons-outlined nav__icon">home</span> Inicio
                         </a>
                     </li>
@@ -772,22 +772,28 @@
                     <div class="contact__information">
                         <span class="material-icons material-icons-outlined contact__icon">call</span>
 
-                        <h3 class="contact__title">Call me</h3>
-                        <span class="contact__subtitle">999-777-666</span>
+                        <div>
+                            <h3 class="contact__title">Call me</h3>
+                            <span class="contact__subtitle">999-777-666</span>
+                        </div>
                     </div>
 
                     <div class="contact__information">
                         <span class="material-icons material-icons-outlined contact__icon">email</span>
 
-                        <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle">alexa@email.com</span>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">alexa@email.com</span>
+                        </div>
                     </div>
 
                     <div class="contact__information">
                         <span class="material-icons material-icons-outlined contact__icon">place</span>
 
-                        <h3 class="contact__title">Location</h3>
-                        <span class="contact__subtitle">México - México City</span>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">México - México City</span>
+                        </div>
                     </div>
                 </div>
 
@@ -807,18 +813,63 @@
                         <input type="text" name="" id="" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message - Borrar esto</label>
+                        <label for="" class="contact__label">Message</label>
                         <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
-                    <a href="#" class="button button--flex">
-                        Send Message&nbsp;&nbsp;&nbsp;
-                        <span class="material-icons material-icons-outlined button__icon">send</span>
-                    </a>
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message&nbsp;&nbsp;&nbsp;
+                            <span class="material-icons material-icons-outlined button__icon">send</span>
+                        </a>
+                    </div>
                 </form>
             </div>
         </section>
     </main>
+
+     <!-- ======== Footer ======== -->
+     <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Alexa</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="facebook.com" target="_blank" class="footer__social">
+                        <span class="material-icons material-icons-outlined">thumb_up_alt</span>
+                    </a>
+                    <a href="instagram.com" target="_blank" class="footer__social">
+                        <span class="material-icons material-icons-outlined">image</span>
+                    </a>
+                    <a href="twitter.com" target="_blank" class="footer__social">
+                        <span class="material-icons material-icons-outlined">tag</span>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Bedimcode. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- ======== Scroll Top ======== -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <span class="material-icons material-icons-outlined scrollup__icon">arrow_upward</span>
+    </a>
     
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
